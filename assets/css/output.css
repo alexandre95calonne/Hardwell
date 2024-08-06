@@ -11,6 +11,7 @@ body {
   color: #000000;
   font-size: 20px;
   font-family: "Epilogue", sans-serif;
+  background-color: #fff;
 }
 
 .section__padding {
@@ -53,7 +54,7 @@ body {
   z-index: 1;
   top: 0;
   left: -100vw;
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
   padding-top: 60px;
   transition: left 0.5s ease;
 }
@@ -122,8 +123,8 @@ body {
 .header button {
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
-  background: #0E1017;
-  color: #FFF;
+  background: #0e1017;
+  color: #fff;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -131,7 +132,7 @@ body {
   font-weight: 600;
   border: none;
   outline: none;
-  background: linear-gradient(to right, #A1C862 50%, #0E1017 50%);
+  background: linear-gradient(to right, #a1c862 50%, #0e1017 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.4s ease-out;
@@ -172,7 +173,7 @@ body {
 }
 /* HOME */
 .home {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -192,7 +193,7 @@ body {
   margin-top: 1.5rem;
 }
 .home .home__left-bloc h1 {
-  color: #0E1017;
+  color: #0e1017;
   font-size: 62px;
   font-style: normal;
   font-weight: 700;
@@ -200,10 +201,10 @@ body {
   margin-top: 1.5rem;
 }
 .home .home__left-bloc span {
-  color: #EA3D3C;
+  color: #ea3d3c;
 }
 .home .home__left-bloc p {
-  color: #7B7D84;
+  color: #7b7d84;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -225,7 +226,7 @@ body {
   outline: none;
   margin-top: 1.5rem;
   cursor: pointer;
-  background: linear-gradient(to right, #bfabf5 50%, #EA3D3C 50%);
+  background: linear-gradient(to right, #bfabf5 50%, #ea3d3c 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.4s ease-out;
@@ -351,7 +352,7 @@ body {
 }
 .services .services__blocs .services__bloc h3 {
   margin-top: 1.5rem;
-  color: #25373F;
+  color: #25373f;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -359,7 +360,7 @@ body {
 }
 .services .services__blocs .services__bloc p {
   margin-top: 0.5rem;
-  color: #25373F;
+  color: #25373f;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -433,7 +434,7 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  background-color: #EA3D3C;
+  background-color: #ea3d3c;
   padding: 1.5rem;
   width: 303px;
   border-radius: 5px;
@@ -444,14 +445,21 @@ body {
   color: #fff;
   text-align: center;
 }
-.about .about__bloc-left .about__bloc-left-orange-div .about__bloc-left-orange-div_top {
+.about
+  .about__bloc-left
+  .about__bloc-left-orange-div
+  .about__bloc-left-orange-div_top {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.about .about__bloc-left .about__bloc-left-orange-div .about__bloc-left-orange-div_top p {
-  color: #FFF;
+.about
+  .about__bloc-left
+  .about__bloc-left-orange-div
+  .about__bloc-left-orange-div_top
+  p {
+  color: #fff;
   font-size: 45px;
   font-weight: 400;
   line-height: 77px;
@@ -459,7 +467,11 @@ body {
   padding: 0;
   margin: 0;
 }
-.about .about__bloc-left .about__bloc-left-orange-div .about__bloc-left-orange-div_top img {
+.about
+  .about__bloc-left
+  .about__bloc-left-orange-div
+  .about__bloc-left-orange-div_top
+  img {
   margin-left: 1rem;
   width: 38px;
   height: 38px;
@@ -599,7 +611,7 @@ body {
 /* PORTFOLIO */
 .portfolio {
   width: 100%;
-  background-color: #EA3D3C;
+  background-color: #ea3d3c;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -626,7 +638,7 @@ body {
   margin-top: 1rem;
 }
 .portfolio .portfolio__left-bloc p {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -734,7 +746,7 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   padding: 3rem 2rem;
 }
 .numbers .numbers__bloc .number {
@@ -752,13 +764,13 @@ body {
   margin-top: 0.5rem;
 }
 .numbers .bloc1 {
-  color: #9CD161;
+  color: #9cd161;
 }
 .numbers .bloc2 {
-  color: #F5AD0D;
+  color: #f5ad0d;
 }
 .numbers .bloc3 {
-  color: #FB690C;
+  color: #fb690c;
 }
 
 @media screen and (max-width: 1002px) {
@@ -955,7 +967,7 @@ body {
 }
 /* WORK */
 .work {
-  background-color: #F3F7F5;
+  background-color: #f3f7f5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -975,7 +987,7 @@ body {
   justify-content: space-between;
 }
 .work .work__head h2 {
-  color: #2E2E46;
+  color: #2e2e46;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -1219,7 +1231,7 @@ body {
   width: 50%;
 }
 .testimonials .testimonials__head h2 {
-  color: #2E2E46;
+  color: #2e2e46;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -1244,37 +1256,53 @@ body {
   padding: 1.5rem;
   margin-top: 2rem;
   border-radius: 6px;
-  border: 1px solid #E0DADA;
+  border: 1px solid #e0dada;
   width: 32%;
   display: flex;
   flex-direction: column;
 }
 .testimonials .testimonials__blocs .testimonials__bloc p {
-  color: #69697B;
+  color: #69697b;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 33px;
 }
-.testimonials .testimonials__blocs .testimonials__bloc .testimonials__bloc-bottom {
+.testimonials
+  .testimonials__blocs
+  .testimonials__bloc
+  .testimonials__bloc-bottom {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin-top: 1.5rem;
 }
-.testimonials .testimonials__blocs .testimonials__bloc .testimonials__bloc-bottom img {
+.testimonials
+  .testimonials__blocs
+  .testimonials__bloc
+  .testimonials__bloc-bottom
+  img {
   width: 58.315px;
   height: 58px;
 }
-.testimonials .testimonials__blocs .testimonials__bloc .testimonials__bloc-bottom .testimonials__bloc-bottom-right {
+.testimonials
+  .testimonials__blocs
+  .testimonials__bloc
+  .testimonials__bloc-bottom
+  .testimonials__bloc-bottom-right {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
 }
-.testimonials .testimonials__blocs .testimonials__bloc .testimonials__bloc-bottom .testimonials__bloc-bottom-right h4 {
-  color: #2E2E46;
+.testimonials
+  .testimonials__blocs
+  .testimonials__bloc
+  .testimonials__bloc-bottom
+  .testimonials__bloc-bottom-right
+  h4 {
+  color: #2e2e46;
   font-size: 18px;
   font-weight: 500;
   margin: 0;
@@ -1327,7 +1355,7 @@ body {
 }
 /* CLIENTS */
 .clients h2 {
-  color: #2E2E46;
+  color: #2e2e46;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -1386,7 +1414,7 @@ body {
   flex-direction: column;
 }
 .blog h2 {
-  color: #2E2E46;
+  color: #2e2e46;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -1404,7 +1432,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 375.054px;
-  border: 1px solid #E0DADA;
+  border: 1px solid #e0dada;
   border-radius: 15px;
 }
 .blog .blog__blocs .blog__bloc img {
@@ -1420,14 +1448,14 @@ body {
   padding: 1.5rem;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom h4 {
-  color: #0D152E;
+  color: #0d152e;
   font-size: 20px;
   font-weight: 700;
   line-height: 34px;
   letter-spacing: -0.66px;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom p {
-  color: #81838C;
+  color: #81838c;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1438,28 +1466,28 @@ body {
   cursor: pointer;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom .yellow {
-  color: #F5AD0D;
+  color: #f5ad0d;
   width: fit-content;
   border-bottom: 1px solid transparent;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom .yellow:hover {
-  border-bottom: 1px solid #F5AD0D;
+  border-bottom: 1px solid #f5ad0d;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom .green {
-  color: #AADF39;
+  color: #aadf39;
   width: fit-content;
   border-bottom: 1px solid transparent;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom .green:hover {
-  border-bottom: 1px solid #AADF39;
+  border-bottom: 1px solid #aadf39;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom .orange {
-  color: #FB690C;
+  color: #fb690c;
   width: fit-content;
   border-bottom: 1px solid transparent;
 }
 .blog .blog__blocs .blog__bloc .blog__bloc-bottom .orange:hover {
-  border-bottom: 1px solid #FB690C;
+  border-bottom: 1px solid #fb690c;
 }
 
 @media screen and (max-width: 600px) {
